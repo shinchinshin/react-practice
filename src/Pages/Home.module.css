@@ -1,0 +1,20 @@
+input {
+  padding: 5px 10px;
+  width: 100px;
+  border-radius: 10px;
+  border-style: none;
+  cursor: pointer;
+  transition: 0.3s;
+  }
+
+input:hover {
+  transform: scale(1.1)
+}  
+
+.newFeed {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  margin: 0 auto;
+  width: 800px;
+}

@@ -1,0 +1,28 @@
+.post {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: left;
+    width: 800px;
+    height: auto;
+    font-size: 1rem;
+    box-sizing: border-box;
+    border-radius: 20px;
+    background-color: white;
+    padding: 0 30px;
+    margin: 10px auto;
+    opacity: 60%;
+    transition: 0.3s;
+  }
+
+  .post:hover{
+    
+    opacity: 100%;
+  }
+
+  .post button {
+    width: 100px
+  }
+  .post button:hover {
+    transform: scale(1.1);
+  }
